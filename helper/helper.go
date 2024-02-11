@@ -1,6 +1,8 @@
 package helper
 
-import "log"
+import (
+	"log"
+)
 
 func BasicHandler(err error) error {
 	if err != nil {
